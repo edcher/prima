@@ -1,1 +1,3 @@
 <h3> {{ title }} </h3>
+
+<input #search placeholder="Cerca spettacolo..." (keyup.enter)="cerca_spettacolo(search.value); search.value=''"/>
