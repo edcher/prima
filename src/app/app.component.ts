@@ -1,4 +1,5 @@
 import { Component, VERSION } from '@angular/core';
+import { TheaterService } from './theater.service';
 
 class theater {
   key: string;
@@ -9,7 +10,6 @@ class theater {
     this.palco = palco;
     this.platea = platea;
   }
-
 }
 
 @Component({
